@@ -14,6 +14,9 @@
         float: left;
         //passing in mathetmatical equation to take up whole bar and equal space
         width: (100% / 6);
+        @include mQ(600px) {
+            width: 100%;
+        }
     }
     a{
         color: $offWhite;
